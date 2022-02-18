@@ -1,0 +1,2 @@
+主要是通过rabbitmq,redis,mysql来实现秒杀功能，java发送message到rabbitmq,redis记录了该消息的UUID,同时redis统计key的数量减少1，消费者消费，消费完再confirm，相关应用数据会保存到mysql,
+如果redis统计key值少于0，用户将会跳转到秒杀已结束的页面。以此来实现秒杀功能。
