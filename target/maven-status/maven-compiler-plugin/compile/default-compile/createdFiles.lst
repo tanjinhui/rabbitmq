@@ -1,0 +1,16 @@
+org\rabbitmq\redis\RedisUtils.class
+org\rabbitmq\repository\ordaddressRespository.class
+org\rabbitmq\Application.class
+org\rabbitmq\model\ordaddress.class
+org\rabbitmq\DirectMqConfig.class
+org\rabbitmq\redis\RedisConfig.class
+org\rabbitmq\model\orderlist.class
+org\rabbitmq\SendController.class
+org\rabbitmq\RabbitTemplateConfig.class
+org\rabbitmq\redis\UserEntity.class
+org\rabbitmq\repository\orderlistRepository.class
+org\rabbitmq\controller\orderlistController.class
+org\rabbitmq\RabbitConfig.class
+org\rabbitmq\SendMessageController.class
+org\rabbitmq\ReceiverMessage.class
+org\rabbitmq\redis\RedisController.class
